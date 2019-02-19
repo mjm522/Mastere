@@ -1,0 +1,31 @@
+﻿Build started 01-04-2014 11:11:27.
+     1>Project "C:\Users\SR-MiKE\Documents\Visual Studio 2010\Projects\FinalThesisSoftware\FinalThesisSoftware\FinalThesisSoftware.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\FinalThesisSoftware.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Dialog.cpp
+         Dialog.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>c:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\SR-MiKE\Documents\Visual Studio 2010\Projects\FinalThesisSoftware\Debug\FinalThesisSoftware.exe" /INCREMENTAL:NO /NOLOGO opencv_features2d245d.lib opencv_nonfree245d.lib opencv_core245d.lib opencv_imgproc245d.lib opencv_highgui245d.lib opencv_ml245d.lib opencv_video245d.lib opencv_calib3d245d.lib opencv_objdetect245d.lib opencv_contrib245d.lib opencv_legacy245d.lib opencv_flann245d.lib pnmutils.lib pnmutilsd.lib triclops.lib PGRFlyCapture.lib pgrflycapturegui.lib /MANIFEST /ManifestFile:"Debug\FinalThesisSoftware.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\SR-MiKE\Documents\Visual Studio 2010\Projects\FinalThesisSoftware\Debug\FinalThesisSoftware.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\SR-MiKE\Documents\Visual Studio 2010\Projects\FinalThesisSoftware\Debug\FinalThesisSoftware.lib" /MACHINE:X86 Debug\Interface1.res
+         Debug\Dialog.obj
+         Debug\MySerialPort.obj
+         Debug\OpenGLControl.obj
+         Debug\OpenGLDevice.obj
+         Debug\StereoImage.obj
+     1>Dialog.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         FinalThesisSoftware.vcxproj -> C:\Users\SR-MiKE\Documents\Visual Studio 2010\Projects\FinalThesisSoftware\Debug\FinalThesisSoftware.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\SR-MiKE\Documents\Visual Studio 2010\Projects\FinalThesisSoftware\Debug\FinalThesisSoftware.exe;#1" /manifest Debug\FinalThesisSoftware.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\FinalThesisSoftware.unsuccessfulbuild".
+         Touching "Debug\FinalThesisSoftware.lastbuildstate".
+     1>Done Building Project "C:\Users\SR-MiKE\Documents\Visual Studio 2010\Projects\FinalThesisSoftware\FinalThesisSoftware\FinalThesisSoftware.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.36
